@@ -1,0 +1,137 @@
+<!--
+    The main job of table is to display structured data. We can use the table tag to affect the layout of the various HTML elements of your website
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcellus Ifeanyi Personal Site</title>
+  </head>
+  <body>
+    <table cellspacing="20px">
+      <tr>
+        <td>
+          <img
+            src="../01-Introduction_to_HTML/Project01-Personal_Site/images/Billionaire Mars-Circled.png"
+            alt="Mars-Ifeanyi Profile Picture"
+            style="height: 300px"
+          />
+        </td>
+        <td>
+          <h1>Marcellus Ifeanyi</h1>
+          <p>
+            Software Engineer 💻, <em>Blockchain Engineer</em>, Quant and
+            Chartered Trader 📊 <strong> Real Estate Consultant 🏘</strong>
+          </p>
+          <p>
+            I am a Front-Engineer and a Blockchain Software Developer, I write
+            Smart Contracts that are secured and cost effective
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h3>Education and Trainings</h3>
+    <!--
+        THE STRUCTURE OF HTML TABLE
+    -->
+    <table>
+      <thead>
+        <tr>
+          <th>Institution and Degree</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            B.Eng Electrical and Electronic Engineering Federal University of
+            Technology Owerri
+          </td>
+          <td>2014-2019</td>
+        </tr>
+        <tr>
+          <td>Forex Apprenticeship Forex Maestros Academy</td>
+          <td>2020</td>
+        </tr>
+        <tr>
+          <td>Blockchain Developer Nano-Degree Udacity</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>MSC in Financial Engineering, WorldQuant University</td>
+          <td>2022-2024</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <h3>Tech Skills Ratings</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Stacks</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>JavaScript</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>ReactJS</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Solidity</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Rust</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>NodeJS</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <a href="./04-Contact-me.html"><h3>Contact Me:</h3></a>
+
+    <form
+      action="mailto:mars.blockchaindev@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Your Name:</label>
+      <input type="text" name="user_name" id="name" required /> <br />
+
+      <label for="email">Your E-mail:</label>
+      <input type="email" name="user_email" id="email" required /> <br />
+
+      <label for="msg">Your Message:</label><br />
+      <textarea name="user_Message" id="msg" cols="20" rows="10"></textarea>
+      <!-- Row = Tall, Column = Wide-->
+      <br />
+      <input type="submit" name="submit_Form" id="submit" /> <br />
+    </form>
+  </body>
+</html>
