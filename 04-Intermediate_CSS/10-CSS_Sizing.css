@@ -1,0 +1,15 @@
+/* 
+font-size: 90px; This is not a dynamic size. thus if we want to get dynamic sizing then we will use percentage.
+
+Hint: 100% = 16px. Thus 90px/16 * 100% = 562.5%
+
+Another way of specifying a dynamic font-size is by using the 'em' unit.
+
+Hint: 1em = 16px = 100%
+
+Hint: When you are using em and %, they will also inherit the font-size property of their parent element. Thus in order to ignore all of the parent settings we use the root em 'rem' ie relative to the root.
+
+The beauty of the rem is that it does not get affected by upstream size changes.
+Hint: When sizing text using rem instead of px or % or em.
+
+ */
