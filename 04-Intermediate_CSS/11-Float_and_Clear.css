@@ -1,0 +1,26 @@
+/* 
+Hint: Use float only for wrapping text around a certain element DON'T use it for positioning.
+
+If you use float only for the case of wrapping text around an element then you will get less bugs
+ */
+
+/* IMAGES  */
+.blockImg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.FEndImg {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skillDescription1 {
+  clear: left;
+}
+
+.skillDescription2 {
+  clear: right;
+}
