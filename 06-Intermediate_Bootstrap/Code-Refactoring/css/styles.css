@@ -1,42 +1,35 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
-  font-family: "Montserrat-Bold";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: "Montserrat-Black";
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 800;
-}
-
+h1,
+h2,
 h3 {
   font-family: "Montserrat-Bold";
-  font-size: 1.5rem;
-  font-weight: 900;
 }
 
 p {
   color: #8f8f8f;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif; */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
 
+/* Containers */
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -66,6 +59,18 @@ font-family: 'Ubuntu', sans-serif; */
   margin: 5% 3% 5% 0;
 }
 
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+} /* This override only the contain-fluid class for the title */
+
 /* title-Image */
 
 .title-image {
@@ -80,15 +85,17 @@ font-family: 'Ubuntu', sans-serif; */
 /* features-Section */
 
 #features {
-  padding: 7% 15%;
-  /* inorder to change the Z-index of the title image and make it appear below the features sections, then we need to change the color of the background to white, so that the color blends perfectly */
   background-color: #fff;
   position: relative;
   z-index: 1;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
 .features-box {
-  text-align: center;
   padding: 4.5%;
 }
 
@@ -107,12 +114,14 @@ Hint:border-radius: 100%, makes the image rounded*/
 
 #testimonials {
   background-color: #ef8172;
-  text-align: center;
+
   color: #fff;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
 }
 
 .testimonial-image {
@@ -125,7 +134,7 @@ Hint:border-radius: 100%, makes the image rounded*/
 
 #press {
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 3%;
 }
 
@@ -138,9 +147,13 @@ Hint:border-radius: 100%, makes the image rounded*/
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
 .pricing-column {
   padding: 3% 2%;
 }
@@ -149,16 +162,7 @@ Hint:border-radius: 100%, makes the image rounded*/
 
 #cta {
   background-color: #ff4c68;
-  text-align: center;
   color: #fff;
-  padding: 3% 15%;
-}
-
-.cta-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 800;
 }
 
 .cta-button {
@@ -166,10 +170,6 @@ Hint:border-radius: 100%, makes the image rounded*/
 }
 
 /* Footer Section */
-#footer {
-  text-align: center;
-  padding: 3% 15%;
-}
 
 .social-icon {
   margin: 20px 10px;
