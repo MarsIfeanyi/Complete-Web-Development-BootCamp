@@ -142,3 +142,14 @@ Hint:border-radius: 100%, makes the image rounded*/
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
