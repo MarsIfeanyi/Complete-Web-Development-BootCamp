@@ -1,0 +1,46 @@
+/* @media print {
+    h1 {
+  color: red;
+}
+}, depends on printing, thus here will turn the text to red on printing 
+
+@media screen {
+    
+}, depends on screen size or resolution
+
+@media speech {
+    
+}, activated when the wedbsite is being read to a visually impaired person 
+
+STRUCTURE OF MEDIA QUERY
+
+@media <type> <feature>
+
+Hint: The media query is a query thus we are checking to see if something is true or false.
+
+Hint: You can use the codeply estimate to know the resolution of different screens
+
+
+*/
+
+h1 {
+  font-size: 30px;
+}
+@media (max-width: 900px) {
+  h1 {
+    color: red;
+    font-size: 60px;
+  }
+} /* Here we have created a media query breakpoint at 900px, and when this becomes true then the code inside the bracket gets enacted and override the existing font  */
+
+h2 {
+  font-size: 30px;
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+  h2 {
+    color: blue;
+    font-size: 60px;
+  }
+} /* Here the code inside the bracket is only going to be triggered and used on a viewport that is greater than 900px but less than 1000px ie there is only 100px gap where this code is going to work.
+
+Hint: The viewport is the size of the screen that your website is being displayed on.*/
