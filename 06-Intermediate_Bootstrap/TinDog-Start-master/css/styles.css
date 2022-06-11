@@ -82,7 +82,7 @@ font-family: 'Ubuntu', sans-serif; */
   /* inorder to change the Z-index of the title image and make it appear below the features sections, then we need to change the color of the background to white, so that the color blends perfectly */
   background-color: #fff;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .features-box {
