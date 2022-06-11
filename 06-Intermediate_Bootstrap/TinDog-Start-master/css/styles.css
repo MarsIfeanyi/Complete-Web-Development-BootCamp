@@ -36,7 +36,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -69,14 +69,20 @@ font-family: 'Ubuntu', sans-serif; */
 /* title-Image */
 
 .title-image {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* features-Section */
 
 #features {
   padding: 7% 15%;
+  /* inorder to change the Z-index of the title image and make it appear below the features sections, then we need to change the color of the background to white, so that the color blends perfectly */
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .features-box {
