@@ -1,0 +1,10 @@
+/* 
+How to Prevent creating conflicting css rule
+
+1. Use IDs very very sparingly. Don't try to use ids when you can use a class. If possible use ids for only sections and part of ypour code that definitely needs an id.
+
+2. When applying classes to your elements use only one class.
+
+3. Avoid inline styles at all cost
+
+ */
