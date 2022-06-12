@@ -69,7 +69,8 @@ p {
 
 #title .container-fluid {
   padding: 3% 15% 7%;
-} /* This override only the contain-fluid class for the title */
+} /* This override only the contain-fluid class for the title ... This is Hierarchical Selector, the first selctor is from the parent and the second selector is from the child */
+*/
 
 /* title-Image */
 
