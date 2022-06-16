@@ -5,3 +5,9 @@ h1 {
 .thirdList {
   font-weight: 900;
 }
+
+.huge {
+  font-size: 5rem;
+  color: blue;
+  font-weight: bolder;
+}
