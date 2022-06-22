@@ -15,6 +15,6 @@ function Heading() {
 
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./src/components/App";
+import App from "./src06/components/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
