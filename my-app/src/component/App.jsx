@@ -15,3 +15,5 @@ function App() {
   );
 }
 export default App;
+
+// Hint: Whenever you are applying a HTML attribute such as class name or styles or onClick, they SHOULD NOT go into your custom components ie the components you created instead that they need to be applied to a HTML element such as div
