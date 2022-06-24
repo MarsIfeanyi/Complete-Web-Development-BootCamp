@@ -9,7 +9,7 @@
 import React, { useState } from "react";
 
 function App() {
-  //Destructuring
+  //Destructuring...Here in [count, setCount], the one at position 0 is the value while the one position 1 is the function that changes the values
   const [count, setCount] = useState(0);
 
   function increase() {
